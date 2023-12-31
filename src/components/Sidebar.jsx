@@ -9,7 +9,7 @@ import SidebarLink from "./SidebarLink";
 
 export default function Sidebar() {
   return (
-    <div className="group fixed min-h-screen w-60 -translate-x-48 bg-slate-700 text-white transition-transform duration-150 ease-in-out hover:translate-x-0">
+    <div className="group fixed z-50 min-h-screen w-60 -translate-x-48 bg-slate-700 text-white transition-transform duration-150 ease-in-out hover:translate-x-0">
       {/* hover sidebar */}
       <div className="absolute right-0 top-0 flex w-12 flex-col items-center justify-center group-hover:hidden">
         <div className="py-10">
